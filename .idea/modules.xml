@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../webdriverIO-mocha-chai-boilerplate/.idea/webdriverIO-with-mochaBDD.iml" filepath="$PROJECT_DIR$/../webdriverIO-mocha-chai-boilerplate/.idea/webdriverIO-with-mochaBDD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../webdriverIO-mocha-chai-boilerplate/.idea/webdriverIO-boilerplate-mocha-chai.iml" filepath="$PROJECT_DIR$/../webdriverIO-mocha-chai-boilerplate/.idea/webdriverIO-boilerplate-mocha-chai.iml" />
     </modules>
   </component>
 </project>
