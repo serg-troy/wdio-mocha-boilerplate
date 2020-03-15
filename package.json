@@ -44,5 +44,8 @@
     "eslint-plugin-react-hooks": "^2.5.0",
     "prettier": "^1.19.1",
     "wdio-chromedriver-service": "^5.0.2"
+  },
+  "dependencies": {
+    "eslint-plugin-wdio": "^5.13.2"
   }
 }
