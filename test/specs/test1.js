@@ -1,11 +1,11 @@
 import { expect } from 'chai';
 
 describe('test', () => {
-  it('should test', () => {
-    browser.url('https://www.f5.com/products/get-f5?ls=meta#contactsales');
+  it('should describe', () => {
+    browser.url('www.google.com');
   });
 
-  it('should populate First Name field', () => {
-
+  it('should true be truthy', () => {
+    expect(true).true;
   });
 });
