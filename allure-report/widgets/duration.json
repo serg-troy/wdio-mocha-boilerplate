@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d64ce1b10212c4f2",
+  "name" : "should true be truthy",
+  "time" : {
+    "start" : 1586826375230,
+    "stop" : 1586826375239,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

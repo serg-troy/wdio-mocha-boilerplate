@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 13 21:06:15 EDT 2020","Mon Apr 13 21:06:15 EDT 2020","9","","test","","test","should true be truthy","should true be truthy",""
