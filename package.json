@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "report": "allure generate allure-results --clean && allure open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio wdio.conf.js && allure generate allure-results --clean && allure open"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "@wdio/mocha-framework": "^6.0.15",
     "@wdio/spec-reporter": "^6.0.14",
     "@wdio/sync": "^6.0.15",
+    "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
     "chromedriver": "^81.0.0",
     "eslint": "^6.8.0",
