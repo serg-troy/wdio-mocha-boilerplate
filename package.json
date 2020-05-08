@@ -42,5 +42,8 @@
     "eslint": "^6.8.0",
     "eslint-plugin-wdio": "^6.0.12",
     "wdio-chromedriver-service": "^6.0.1"
+  },
+  "dependencies": {
+    "netlify-cli": "^2.46.0"
   }
 }
