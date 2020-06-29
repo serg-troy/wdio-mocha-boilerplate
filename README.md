@@ -4,7 +4,7 @@
 * Run `npm install`
 * Run `npm test`
 
-### **WebDriverIO project setup from scratch:**
+### **WebDriverIO v6 project setup from scratch:**
 1. Create new NodeJS project (or run `npm init` inside existing directory)
 2. Run `npm i --save-dev @wdio/cli`
 3. Run `npx wdio config -y`
