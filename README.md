@@ -46,7 +46,19 @@ module.exports = {
   printWidth: 100,
 };
 ```
-7. To run your tests use `npx wdio wdio.conf.js`
+7. Add _Chai Assertions_ to your project:
+* Run `npm install --save-dev chai`
+* Setup _chai_ in beforeTest function (so you won't have to import it everytime).
+Replace `beforeTest` function in wdio.conf js with following:
+```javascript
+  beforeTest: function () {
+    const chai = require('chai');
+    global.expect = chai.expect;
+  },
+```
+
+
+8. To run your tests use `npx wdio wdio.conf.js`
 
 ### **Add Allure Reporter to existing WDIO framework:**
 1. Install Allure Reporter `npm install @wdio/allure-reporter --save-dev`
