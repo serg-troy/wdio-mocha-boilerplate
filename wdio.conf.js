@@ -1,5 +1,5 @@
 const baseUrl = 'https://www.google.com';
-const specsPath = ['./test/specs/**/*.spec.js'];
+const specs = ['./test/specs/**/*.spec.js'];
 
 exports.config = {
   //
@@ -22,7 +22,7 @@ exports.config = {
   // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
-  specs: specsPath,
+  specs: specs,
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
