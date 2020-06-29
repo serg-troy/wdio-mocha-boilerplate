@@ -1,6 +1,8 @@
+import Page from "../pages/Page";
+
 describe('SAMPLE', () => {
   it('sample', () => {
-    browser.url('/');
+    Page.open();
     browser.pause(1000)
     expect(browser.getTitle()).includes('Google');
   });
