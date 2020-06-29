@@ -39,8 +39,8 @@
     "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
     "chromedriver": "^83.0.0",
+    "npm-check-updates": "^7.0.1",
     "prettier": "^2.0.5",
-    "wdio-chromedriver-service": "^6.0.3",
-    "npm-check-updates": "^7.0.1"
+    "wdio-chromedriver-service": "^6.0.3"
   }
 }
