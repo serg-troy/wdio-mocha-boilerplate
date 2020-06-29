@@ -60,7 +60,7 @@ module.exports = {
 ```
 3. Install CLI for Allure `npm install allure-commandline --save-dev`
 4. Add _report script_ to your _package.json_ file
-```javascript
+```json
     "report": "allure generate allure-results --clean && allure open",
 ```
   
